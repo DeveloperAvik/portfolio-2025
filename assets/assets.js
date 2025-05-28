@@ -99,17 +99,104 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Software Development', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    // { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    // { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
-]
+    {
+        icon: assets.web_icon,
+        title: 'Software Development',
+        description: 'Web development is the process of building, programming, and maintaining websites or web apps using modern stacks like MERN.',
+        link: '/services/software-development'
+    },
+    {
+        icon: assets.mobile_icon,
+        title: 'Web/App Development',
+        description: 'Web/App development involves creating responsive and high-performance applications for iOS and Android platforms.',
+        link: '/services/mobile-app'
+    },
+    {
+        icon: assets.security_icon,
+        title: 'Cybersecurity & Pentesting',
+        description: 'Security assessments, bug bounty testing, and penetration testing services to uncover and mitigate vulnerabilities in web applications.',
+        link: '/services/cybersecurity'
+    },
+    {
+        icon: assets.education_icon,
+        title: 'Technical Education & Mentorship',
+        description: 'Cybersecurity courses, YouTube tutorials, and one-on-one mentorship to empower learners and aspiring professionals.',
+        link: '/services/education'
+    },
+    {
+        icon: assets.tools_icon,
+        title: 'Security Tooling & Automation',
+        description: 'Custom tool development for recon, scanning, and automation to streamline offensive security operations.',
+        link: '/services/security-tools'
+    }
+];
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, React Js, Next Js, TypeScript, DBMS, Prism,Python, Django, C, C++ , Java, Redux' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 70+ projects' }
+    {
+        icon: assets.code_icon,
+        iconDark: assets.code_icon_dark,
+        title: 'Languages & Technologies',
+        description: 'HTML, CSS, JavaScript, React.js, Next.js, TypeScript, Redux, Python, Django, DBMS, Prism, C, C++, Java'
+    },
+    {
+        icon: assets.edu_icon,
+        iconDark: assets.edu_icon_dark,
+        title: 'Education',
+        description: 'Bachelor of Technology (B.Tech) in Computer Science'
+    },
+    {
+        icon: assets.project_icon,
+        iconDark: assets.project_icon_dark,
+        title: 'Projects',
+        description: 'Built and deployed over 70+ full-stack and cybersecurity-focused projects.'
+    }
 ];
+
+export const experienceData = [
+    {
+        role: 'Cybersecurity Consultant',
+        company: 'ThinkCloudly – California, United States',
+        period: 'May 2025 – Present',
+        description:
+            'Provided security assessments, penetration testing, and vulnerability mitigation for web applications and cloud systems. Collaborated with dev teams to implement secure coding practices and fix issues like XSS, IDOR, and auth flaws.'
+    },
+    {
+        role: 'Freelance Bug Hunter',
+        company: 'Bugcrowd – Kolkata, India',
+        period: 'Oct 2024 – Present',
+        description:
+            'Identified real-world vulnerabilities across various web apps, reported 30+ valid bugs, and conducted manual testing, recon, and exploit development.'
+    },
+    {
+        role: 'Instructor',
+        company: 'Udemy – California, United States',
+        period: 'Sep 2024 – Present',
+        description:
+            'Delivered cybersecurity courses covering ethical hacking, web app security, and pentesting. Trained over 600 students via video content and direct support.'
+    },
+    {
+        role: 'CEO & Software Development Engineer',
+        company: 'Tytosoft',
+        period: 'Mar 2023 – Present',
+        description:
+            'Led a team to build impactful software solutions. Managed full project cycles from concept to deployment with a focus on innovation and scalability.'
+    },
+    {
+        role: 'Full Stack Web Developer (MERN)',
+        company: 'Fn\'s Software',
+        period: '2022 – Present',
+        description:
+            'Built and maintained modern full-stack web applications using the MERN stack. Integrated APIs, handled authentication, and optimized for performance.'
+    },
+    {
+        role: 'Offensive Security Content Creator',
+        company: 'YouTube',
+        period: 'Apr 2022 – Present',
+        description:
+            'Published 50+ ethical hacking and pentesting tutorials. Grew a community of 600+ subscribers and 10K+ views focused on real-world security skills.'
+    }
+];
+
 
 export const toolsData = [
     assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
