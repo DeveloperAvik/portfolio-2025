@@ -11,7 +11,7 @@ import Experience from "@/components/Exprience";
 
 export default function Home() {
 
-  alert("portfolio not completed yet ...")
+  // alert("portfolio not completed yet ...")
 
   const [isDarkMode, setIsDarkMode] = useState(false);
 
