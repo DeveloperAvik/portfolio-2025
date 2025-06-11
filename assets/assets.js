@@ -6,10 +6,14 @@ import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
+import ts from './ts.png';
+import dj from "./dj.png";
+import react from "./react.png"
 import firebase from './firebase.png';
 import figma from './figma.png';
 import git from './git.png';
 import mongodb from './mongodb.png';
+import node from './node.png';
 import right_arrow_white from './right-arrow-white.png';
 // import logo from './logo.png';
 // import logo_dark from './logo_dark.png';
@@ -45,9 +49,13 @@ export const assets = {
     project_icon_dark,
     vscode,
     firebase,
+    ts,
     figma,
     git,
     mongodb,
+    dj,
+    react,
+    node,
     right_arrow_white,
     // logo,
     // logo_dark,
@@ -136,7 +144,7 @@ export const infoList = [
         icon: assets.code_icon,
         iconDark: assets.code_icon_dark,
         title: 'Languages & Technologies',
-        description: 'HTML, CSS, JavaScript, React.js, Next.js, TypeScript, Redux, Python, Django, DBMS, Prism, C, C++, Java'
+        description: 'JavaScript, React.js, Next.js, TypeScript, Redux, Python, Django, DBMS, Prism, C, C++, Java'
     },
     {
         icon: assets.edu_icon,
@@ -184,7 +192,7 @@ export const experienceData = [
     {
         role: 'Full Stack Web Developer (MERN)',
         company: 'Fn\'s Software',
-        period: '2022 – Present',
+        period: '2021 – 2022',
         description:
             'Built and maintained modern full-stack web applications using the MERN stack. Integrated APIs, handled authentication, and optimized for performance.'
     },
@@ -199,5 +207,5 @@ export const experienceData = [
 
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git, assets.ts , assets.dj, assets.react, assets.node
 ];
