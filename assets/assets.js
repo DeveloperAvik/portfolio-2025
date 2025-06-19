@@ -104,6 +104,27 @@ export const workData = [
         description: 'A full stack web site for cloath donations',
         bgImage: '/work-4.png',
     },
+    {
+        title: 'Car Rental',
+        description: 'A full stack web site for car rent using Next Js',
+        bgImage: '/work-4.png',
+    },
+    {
+        title: 'The Janatar Barta',
+        description: 'A full stack web site for news',
+        bgImage: '/work-3.png',
+    },
+    {
+        title: 'Job Portal',
+        description: 'A job portal using  MERN',
+        bgImage: '/work-2.png',
+    },
+    {
+        title: 'Employee management system',
+        description: 'Build by react, django and postgresql',
+        bgImage: '/work-1.png',
+    },
+
 ]
 
 export const serviceData = [
@@ -207,5 +228,5 @@ export const experienceData = [
 
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git, assets.ts , assets.dj, assets.react, assets.node
+    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git, assets.ts, assets.dj, assets.react, assets.node
 ];
