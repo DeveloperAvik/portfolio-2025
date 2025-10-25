@@ -177,7 +177,7 @@ export const infoList = [
         icon: assets.project_icon,
         iconDark: assets.project_icon_dark,
         title: 'Projects',
-        description: 'Built and deployed over 70+ full-stack and cybersecurity-focused projects.'
+        description: 'Built and deployed over 200+ full-stack, AI, Blockchain and cybersecurity-focused projects.'
     }
 ];
 
@@ -189,9 +189,16 @@ export const experienceData = [
         description:
             'Provided security assessments, penetration testing, and vulnerability mitigation for web applications and cloud systems. Collaborated with dev teams to implement secure coding practices and fix issues like XSS, IDOR, and auth flaws.'
     },
+        {
+        role: 'Freelance Bug Hunter',
+        company: 'Intrigriti – Remote',
+        period: 'Oct 2024 – Present',
+        description:
+            'Identified real-world vulnerabilities across various web apps, reported 30+ valid bugs, and conducted manual testing, recon, and exploit development.'
+    },
     {
         role: 'Freelance Bug Hunter',
-        company: 'Bugcrowd – Kolkata, India',
+        company: 'Bugcrowd – Remote',
         period: 'Oct 2024 – Present',
         description:
             'Identified real-world vulnerabilities across various web apps, reported 30+ valid bugs, and conducted manual testing, recon, and exploit development.'
@@ -201,11 +208,11 @@ export const experienceData = [
         company: 'Udemy – California, United States',
         period: 'Sep 2024 – Present',
         description:
-            'Delivered cybersecurity courses covering ethical hacking, web app security, and pentesting. Trained over 600 students via video content and direct support.'
+            'Delivered cybersecurity courses covering ethical hacking, web app security, and pentesting. Trained over 1000+ students via video content and direct support.'
     },
     {
         role: 'CEO & Software Development Engineer',
-        company: 'Tytosoft',
+        company: 'Tytova Technology',
         period: 'Mar 2023 – Present',
         description:
             'Led a team to build impactful software solutions. Managed full project cycles from concept to deployment with a focus on innovation and scalability.'

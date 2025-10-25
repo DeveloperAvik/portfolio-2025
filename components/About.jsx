@@ -42,7 +42,7 @@ const About = ({isDarkMode}) => {
             transition={{duration: 0.6, delay: 0.8}}
             className='flex-1'>
                 <p className='mb-10 max-w-2xl font-Ovo'
-                >I'm Avik Das (He/Him), a Full Stack Software Engineer at TytoSoft with a focus on building secure, scalable applications. I specialize in both development and Offensive Security, bringing a security-first mindset to every project. Outside of work, I teach on Udemy, sharing knowledge in software and cybersecurity. Always curious, always building.
+                >I'm Avik Das (He/Him), a Full Stack Software Engineer at Tytova Technology with a focus on building secure, scalable applications. I specialize in both development and Offensive Security, bringing a security-first mindset to every project. Outside of work, I teach on Udemy, sharing knowledge in software and cybersecurity. Always curious, always building.
                 </p>
 
                 <motion.ul
